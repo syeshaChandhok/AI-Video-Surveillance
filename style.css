@@ -1,0 +1,29 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    color: honeydew;
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+#start,#nameofobjects,#status{
+    font-size: 18px;
+}
+.footer{
+bottom: 0;
+position: fixed;
+background-color: rgb(0, 0, 0);
+width: 100%;
+font-size: 13px;
+line-height: 2;
+color: white;
+text-align:right;
+}
+canvas{
+    border: 2px solid floralwhite;
+    border-radius: 20px;
+    margin-top: 130px ;
+    box-shadow: 5px 6px 10px ghostwhite;
+}
